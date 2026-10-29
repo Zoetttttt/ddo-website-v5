@@ -1,0 +1,12 @@
+const works = [
+{id:'sumi',title:'Bar Sumi',place:'Regent Place',type:'Hospitality',images:Array.from({length:4},(_,i)=>`assets/barsumi-regentplace-${i}.webp`),cover:1,ratio:1.333,note:'Low light, warm surfaces and an evening atmosphere. A space that unfolds slowly.'},
+{id:'linla',title:'Linla',place:'Surry Hills',type:'Hospitality',images:Array.from({length:4},(_,i)=>`assets/linla-${i}.webp`),cover:0,ratio:1.5,note:'An intimate setting for the social ritual of dining, composed through light and shadow.'},
+{id:'dragon',title:'Dragon Hot Pot',place:'Regent Place',type:'Hospitality',images:Array.from({length:8},(_,i)=>`assets-2026/dragon-${i}.webp`),cover:0,ratio:1.5,note:'Red ribbons, lantern light and layered textures. A vivid landscape for everyday encounters.'},
+{id:'palace',title:'Palace Chinese Restaurant',place:'Chinese restaurant',type:'Hospitality',images:Array.from({length:6},(_,i)=>`assets-2026/palace-${i}.webp`),cover:0,ratio:1.5,note:'Timber, glass and warm light form a setting for the rituals of gathering.'},
+{id:'lumiere',title:'Lumiere Apartment',place:'Sydney',type:'Residential',images:Array.from({length:4},(_,i)=>`assets/lumiere-apartment-sydney-${i}.webp`),cover:2,ratio:1.5,note:'The warmth of timber and the quiet of everyday life. A personal place to return to.'},
+{id:'saku',title:'Saku Sushi',place:'Tramsheds',type:'Hospitality',images:Array.from({length:4},(_,i)=>`assets/sakusushi-tramsheds-${i}.webp`),cover:1,ratio:1.5,note:'A dialogue between a generous heritage volume and the details of a daily ritual.'},
+{id:'koko',title:'Koko Amusement',place:'Haymarket',type:'Leisure',images:Array.from({length:4},(_,i)=>`assets/koko-amusement-chinatown-${i}.webp`),cover:2,ratio:1.5,note:'A bold interplay of light, colour and play.'},
+{id:'arctic',title:'Arctic White',place:'Westfield Sydney',type:'Retail',images:Array.from({length:4},(_,i)=>`assets/arcticwhite-westfieldsydney-${i}.webp`),cover:2,ratio:1.5,note:'Soft curves and a luminous material palette offer a gentle pause within the city.'},
+{id:'yebisu',title:'Yebisu',place:'Regent Place',type:'Hospitality',images:Array.from({length:4},(_,i)=>`assets/yebisu-${i}.webp`),cover:3,ratio:1.333,note:'An izakaya interior composed through texture, lanterns and the energy of shared tables.'},
+{id:'violet',title:'Violet Lab by K',place:'Cosmetics & lifestyle boutique',type:'Retail',images:Array.from({length:4},(_,i)=>`assets/violet-lab-by-k-${i}.webp`),cover:3,ratio:.8,note:'Transparent purple, precise lines and a laboratory-inspired language of discovery.'}
+];
